@@ -1,0 +1,468 @@
+#myVideo{
+    width: 100%;
+    }
+body{
+    background-color: #A27B5C;
+    margin: 0;
+    }
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #E0D8B0;
+   
+    
+}
+.first{
+    margin-right: auto; 
+    font-size: 25px;
+    text-decoration: none;
+    color: #630606;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+text-decoration: none;
+padding: 10px;
+color: #630606;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.menu:hover{
+    background-color: #CC9544;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+hr{
+    background-color: #E0D8B0;
+    padding: 3px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:#CC9544;
+    background-color: #E0D8B0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+
+.double{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}
+
+.flip-card {
+    background-color: #630606;
+    width: 40%;
+    height: 600px;
+    perspective: 1000px;  
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-back {
+    background-color: #630606;
+    transform: rotateY(180deg);
+}
+
+.price{
+    color:#CC9544;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;    
+    align-self: center;
+}
+ins{
+    text-decoration: none;
+    display: inline-block;
+    transform:rotate(-15deg);
+    padding: 20px;
+}
+del{
+    background-color: #630606;
+}
+
+h3, img{
+    align-self: center;
+    color: beige;
+    text-decoration: overline;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #630606;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+form{
+    background: linear-gradient(150deg, rgba(131,17,1,1) 16%, rgba(249,23,23,0.4937325271905637) 61%, rgba(222,130,1,1) 89%);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:50px;
+    border-radius: 50px;
+    color: beige;
+    
+}
+label{
+    font-size: 20px;
+}
+.personal-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+input{
+    padding: 20px;
+    margin-top: 10px;
+    width:100%;
+    border: 5px solid #DE834D;
+    
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+}
+.btn:hover{
+    background-color: #630606;
+    color: beige;
+}
+
+.line1{
+    border-right: 1px solid beige;
+    height: 150px;  
+}
+.line2{
+    border-left: 1px solid beige;
+    height: 150px
+}
+.request{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.cta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cta-btn{
+
+    padding: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: beige;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #630606;
+    border: 5px solid #DE834D;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.cta-btn:hover{
+    background-color: #630606; 
+    color: beige;
+    transition-duration: 2s;
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid #DE834D;
+    margin: 50px;
+}
+iframe{
+    width: 100%;
+}
+.Anastaisha{
+            text-align: center;
+            font-size: 12px;
+             text-decoration: none;
+            color: #070707;
+          }
+
+.Anas{display:flex; 
+justify-content: center;}
+
+
+@media all and (max-width: 850px) {
+    body{
+        background-color: #BB6464;
+    }
+    #myVideo{
+        width: 100%;
+    }
+    .navigation{
+        display: flex;
+        justify-content: flex-start; 
+    }
+    .description{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .text{
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .double{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .flip-card-back{
+        font-size: 20px;
+        margin-top: 50px;
+        height: 400px;
+    }
+    .flip-card{
+        margin-left: 0%;
+        width: 100%;
+        height: 600px;
+    }
+    .price{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .text{
+        margin-right: 30px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .scheduling{
+        margin-bottom: 20px;
+    }
+    .line1, .line2{
+        height: 0px;
+    }
+    form{
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 0%;
+    }
+    .personal-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .request{
+    margin-left: 10px;
+    }
+    .message{
+    padding: 40px;
+    }
+    .message{
+        font-size: 15px;
+    }
+    .cta-btn{
+    font-size: 20px;
+    margin-bottom: 20px;
+    }
+    .map{
+        margin: 0%;
+        border: none;
+    }
+    iframe{
+        width: 90%;
+    }
+    
+    }
+
+    @media all and (max-width: 640px){
+        .navigation{
+            flex-direction: column;
+            
+    }
+    }
+    
+    @media all and (max-width: 500px) {
+    body{
+        background-color: #A64B2A;
+        }
+    #myVideo{
+        width: 100%;
+    }
+    .navigation{
+        justify-content: center;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .text{
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .double{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    p{
+        font-size: 12px;
+        margin-bottom: 0%;
+        margin-top: 5px;
+    }
+    .flip-card{
+        margin-left: 0%;
+        width: 100%;
+        height: 400px;
+    }
+    .flip-card-back{
+        height: 300px;
+    }
+    img{
+        height: 300px;
+    }
+    .price{
+        font-size: 25px;
+        margin-top: 10px;
+        
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .scheduling{
+        margin-bottom: 20px;
+    }
+    .line1, .line2{
+        height: 0px;
+    }
+    form{
+        margin-left: 0%;
+        margin-right: 0%;
+        border-radius: 0%;
+    }
+    .personal-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .request{
+        margin-left: 0%;
+    }
+    .message{
+        font-size: 10px;
+    }
+    .cta-btn{
+    font-size: 20px;
+    margin-bottom: 20px;
+    }
+    .map{
+        margin: 0%;
+        width: 100%;
+    }
+    }
+    @media all and (max-width: 300px) {
+        .navigation{
+            font-size: 15px;
+        }
+        .description{
+            font-size: 10px;
+        }
+        .flip-card{
+            height: 250px;
+        }
+        .flip-card-back{
+            height: 200px;
+        }
+        img{
+            height: 200px;
+        }
+        p{
+            font-size: 10px;
+            margin-top: 0%;
+        }
+        .price{
+            font-size: 15px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .btn{
+            padding: 5px;
+        }
+        form{
+            padding: 5px;
+        }
+        .message{
+            padding: 20px;
+        }
+        .cta-btn{
+            padding: 10px;
+        }
+    }
